@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/home/home",
+    "pages/me/me",
+    "pages/active/active",
+    "pages/list/list"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#8B0206",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "Home",
+        "iconPath": "static/tabbar_icon/home.png",
+        "selectedIconPath": "static/tabbar_icon/home_s.png"
+      },
+      {
+        "pagePath": "pages/active/active",
+        "text": "Active",
+        "iconPath": "static/tabbar_icon/active.png",
+        "selectedIconPath": "static/tabbar_icon/active_s.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "List",
+        "iconPath": "static/tabbar_icon/category.png",
+        "selectedIconPath": "static/tabbar_icon/category_s.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "Me",
+        "iconPath": "static/tabbar_icon/me.png",
+        "selectedIconPath": "static/tabbar_icon/me_s.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

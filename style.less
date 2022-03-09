@@ -1,0 +1,26 @@
+@fullHeight: 100vh;
+@fullWidth: 100%;
+@primaryBgColor: #8B0206;
+@primaryColor: #eeeeee;
+@pageColor: rgba(220,220,220,.3);
+@rowFlex: row-flex;
+@primaryBtn: primary-btn;
+@page: page;
+
+@{page} {
+	padding: 5px 10px;
+	box-sizing: border-box;
+	min-height: calc(@fullHeight - 60px);
+	background-color: @pageColor;
+}
+.@{primaryBtn} {
+	background: @primaryBgColor;
+	width: 150px;
+	border-radius: 40px;
+	color: @primaryColor;
+}
+.@{rowFlex} {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

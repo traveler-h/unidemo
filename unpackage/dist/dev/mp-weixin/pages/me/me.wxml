@@ -1,0 +1,1 @@
+<view><view class="center-top"><image class="avatar" src="{{a}}" mode="aspectFill"></image><view class="desc"><view class="name">{{b}}</view><view class="base"><text>{{c}}</text><text>{{d}}</text></view><view class="intro"> 简介： 来自XXX，从事XXXX，爱好XXXXXXX。 </view></view></view></view>
